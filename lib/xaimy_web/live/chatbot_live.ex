@@ -1,7 +1,7 @@
 defmodule XaimyWeb.ChatbotLive do
   use Phoenix.LiveView, container: {:div, [class: "fixed right-0 bottom-0 mr-4"]}
 
-  alias Phoenix.Liveview.JS
+  alias Phoenix.LiveView.JS
 
   alias Xaimy.Chatbot
   alias Xaimy.Chatbot.Message
